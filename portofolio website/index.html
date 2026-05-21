@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Muhammad Ali Ramadhani</title>
+  <meta name="description" content="Portofolio Teknik Komputer & Jaringan - IoT Developer">
+  
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Link ke CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Portfolio.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <div class="menu-btn" id="menuBtn"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-content reveal">
+      <h1>Halo, Saya <span>Muhammad Ali Ramadhani</span></h1>
+      <p>Lulusan TKJ dengan pengalaman 1 tahun di Teaching Factory (TeFa) dibidang service laptop dan komputer dan saya magang selama 6 bulan di bidang IoT (internet of things)  .</p>
+      <a href="#projects" class="btn">Lihat Proyek</a>
+      <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container reveal">
+      <h2 class="section-title">Tentang Saya</h2>
+      <p class="section-subtitle">Perjalanan & Fokus Keahlian</p>
+      <p style="max-width: 800px; color: var(--text-secondary); margin-bottom: 20px;">
+        Saya adalah lulusan Teknik Komputer dan Jaringan yang passionate dalam service hardware maupun software pada laptop dan komputer. selama masa pembelajaran TeFa 1 tahun di bidang ini 
+        saya telah mengasah kemampuan troubleshooting,perbaikan, dan maintenance perangkat komputer untuk memastikan performa optimal. Selain itu,saya juga memiliki pengalaman magang selama 6 bulan
+        di bidang IoT (Internet of Things) yang memungkinkan saya untuk mengembangkan prototipe sensor, monitoring menggunakan Blynk secara real-time.
+        selama magang, saya menangani instalasi jaringan, troubleshooting, serta pelatihan teknis untuk siswa junior.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container reveal">
+      <h2 class="section-title">Keahlian Teknis</h2>
+      <p class="section-subtitle">Tools & Teknologi yang saya kuasai</p>
+      <div class="skills-grid">
+        <div class="skill-card"><i class="fas fa-computer"></i><h4>Service hardware,software</h4><p>Komputer dan Laptop</p></div>
+        <div class="skill-card"><i class="fas fa-microchip"></i><h4>IoT & Embedded</h4><p>ESP32, Arduino, Sensor</p></div>
+        <div class="skill-card"><i class="fas fa-code"></i><h4>Pemrograman</h4><p>dasar tentang IoT</p></div>
+        <div class="skill-card"><i class="fas fa-server"></i><h4>System & Cloud</h4><p>Blynk dan firebase</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container reveal">
+      <h2 class="section-title">Pengalaman</h2>
+      <p class="section-subtitle">Magang & Teaching Factory</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>IoT Intern</h3>
+            <span class="date">juni 2025 - Januari 2026 (6 bulan)</span>
+          </div>
+          <p>PT MUTU Media Karya • Jombang</p>
+          <ul style="margin-top: 10px; margin-left: 20px; list-style: disc; color: var(--text-secondary);">
+            <li>Membuat prototype smart home untuk mengontrol lampu untuk 6 ruangan menggunakan blynk  </li>
+            <li>Merancang sistem monitoring real-time untuk 6 ruangan</li>
+            <li>Membuat dashboard real-time menggunakan Blynk</li>
+          </ul>
+          <div class="tags"><span class="tag">ESP32</span><span class="tag">Blynk</span><span class="tag">Arduino</span></div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Teknisi service komputer dan laptop (TEFA)</h3>
+            <span class="date">Juni 2024 - Mei 2025</span>
+          </div>
+          <p>PT Mutu Media Karya • SMK Unggulan NU Mojoagung </p>
+          <ul style="margin-top: 10px; margin-left: 20px; list-style: disc; color: var(--text-secondary);">
+            <li>Instalasi sistem operasi windows</li>
+            <li>Maintenance dan troubleshooting pada komputer atau laptop</li>
+            <li>diagnosis dan perbaikan hardware laptop dan komputer</li>
+          </ul>
+          <div class="tags"><span class="tag">Maintenance</span><span class="tag">Laptop</span><span class="tag">windows</span><span class="tag">Troubleshooting</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- PROJECTS -->
+<section id="projects">
+  <div class="container reveal">
+    <h2 class="section-title">Proyek Unggulan</h2>
+    <p class="section-subtitle">Implementasi & Hasil Nyata</p>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card" 
+           data-title="Smart Room"
+           data-desc="Sistem kontrol ruangan cerdas menggunakan sensor suhu DHT22, Blynk, dan ESP32-C3. Ketika suhu ruangan melebihi batas 30°C, sistem akan otomatis menyalakan kipas angin. Pada malam hari, lampu akan menyala otomatis menggunakan sensor LDR. Dashboard monitoring real-time tersedia via aplikasi Blynk."
+           data-image="assets/projects/smart-room.jpg"
+           data-video=""
+           data-demo="#"
+           data-code="#"
+           data-tags='["ESP32-C3","Blynk","DHT22","LDR","IoT"]'
+           style="cursor: pointer;">
+        <div class="project-thumbnail">
+          <img src="assets/projects/smart-room-thumb.jpg" alt="Smart Room" onerror="this.src='https://via.placeholder.com/400x250/1e293b/94a3b8?text=Smart+Room'">
+          <div class="project-overlay"><i class="fas fa-search-plus"></i></div>
+        </div>
+        <h3>Smart Room</h3>
+        <p>Sistem kontrol ruangan cerdas menggunakan sensor suhu DHT22, Blynk dan ESP32-C3. Otomatis menyalakan kipas saat suhu >30°C dan lampu saat malam.</p>
+        <div class="tags"><span class="tag">ESP32-C3</span><span class="tag">Blynk</span><span class="tag">DHT22</span></div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" 
+           data-title="DIY Mini CNC Plotter"
+           data-desc="Mini CNC plotter berbasis Arduino dengan kontrol stepper motor menggunakan driver A4988. Dapat digunakan untuk menggambar pola vektor sederhana pada kertas. Dikontrol via G-code sender dari komputer atau smartphone."
+           data-image="assets/projects/cnc-plotter.jpg"
+           data-video="assets/projects/cnc-demo.mp4"
+           data-demo="#"
+           data-code="https://github.com/username/cnc-plotter"
+           data-tags='["Arduino","Stepper Motor","CNC","A4988","GRBL"]'
+           style="cursor: pointer;">
+        <div class="project-thumbnail">
+          <img src="assets/projects/cnc-thumb.jpg" alt="CNC Plotter" onerror="this.src='https://via.placeholder.com/400x250/1e293b/94a3b8?text=CNC+Plotter'">
+          <div class="project-overlay"><i class="fas fa-play"></i></div>
+        </div>
+        <h3>DIY Mini CNC Plotter</h3>
+        <p>Kontrol perangkat CNC mini plotter menggunakan Arduino dan stepper motor untuk menggambar pola vektor.</p>
+        <div class="tags"><span class="tag">Arduino</span><span class="tag">Stepper Motor</span><span class="tag">CNC</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container reveal">
+      <h2 class="section-title">Hubungi Saya</h2>
+      <p class="section-subtitle">Tertarik kolaborasi atau butuh konsultasi teknis?</p>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div><i class="fas fa-envelope"></i><span>rdni2500@gmail.com</span></div>
+          <div><i class="fas fa-phone"></i><span>+62 813-5724-4914</span></div>
+          <div><i class="fas fa-map-marker-alt"></i><span>Mojokerto, Jawa Timur, Indonesia</span></div>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div style="background: var(--bg-card); padding: 25px; border-radius: var(--radius); border: 1px solid var(--border);">
+          <p style="margin-bottom: 15px; font-weight: 500;">Tertarik bekerja sama?</p>
+          <a href="mailto:rdni2500@gmail.com" class="btn" style="width: 100%; text-align: center;">Kirim Email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Muhammad Ali Ramadhani.</p>
+    </div>
+  </footer>
+
+  <!-- Link ke JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
